@@ -61,3 +61,4 @@ function dequeue(){var nextCallback=queues[qname].shift();if(nextCallback){nextC
 else{delete queues[qname];}}};$.each(["getq","postq"],function(i,method){$[method]=function(qname,url,data,callback,type){if($.isFunction(data)){type=type||callback;callback=data;data=undefined;}
 return $.ajaxq(qname,{type:method==="postq"?"post":"get",url:url,data:data,success:callback,dataType:type});};});$.ajaxq.isRunning=function(){for(var i in queues){if(queues.hasOwnProperty(i)){return true;}}
 return false;};})(jQuery);}
+function dummy(){var aa=12;}
