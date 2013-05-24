@@ -19,3 +19,7 @@
 /*.border-bottom {
     border-bottom: solid 1px black;
 }*/
+
+tr.fraction-done {
+    background-color: #c5bb90 !important;
+}
