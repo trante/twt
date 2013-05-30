@@ -20,12 +20,10 @@ tr.fraction-done {
     background-color: #c5bb90 !important;
 }
 
-.twitp_striket {
-    background: transparent url('http://trante.github.io/twt/img/striket.png')  0 50% repeat-x;
-}
-
-
 /*.border-bottom {
     border-bottom: solid 1px black;
 }*/
 
+.twitp_striket {
+    background: transparent url('http://trante.github.io/twt/img/striket.png')  0 50% repeat-x;
+}
