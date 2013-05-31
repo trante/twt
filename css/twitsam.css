@@ -1,4 +1,3 @@
-
 .son_tweet_div {
 	display: none;
 }
@@ -16,7 +15,7 @@
     border: solid 1px black;
 }
 
-tr.fraction-done {
+tr.fraction-shade {
     background-color: #c5bb90 !important;
 }
 
