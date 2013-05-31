@@ -29,5 +29,5 @@ tr.fraction-shade {
 }
 
 .twitp_vert_mid {
-    vertical-align:middle;
+    vertical-align:middle !important;
 }
