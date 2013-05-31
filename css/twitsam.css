@@ -1,3 +1,4 @@
+
 .son_tweet_div {
 	display: none;
 }
@@ -25,4 +26,8 @@ tr.fraction-shade {
 
 .twitp_striket {
     background: transparent url('http://trante.github.io/twt/img/striket.png')  0 50% repeat-x;
+}
+
+.twitp_vert_mid {
+    vertical-align:middle;
 }
