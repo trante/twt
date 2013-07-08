@@ -7,6 +7,7 @@ if(screenName){var newAction='/tools/'+tableType+'/'+screenName;$(this).attr('ac
 if($('#tweetsTable').length!==0){window.tableType='tweetsTable';registerAjaxq();}
 if($('#whitelistTable').length!==0){window.tableType='whitelistTable';registerAjaxq();}
 if($('#fflogsPage').length!==0){window.tableType='fflogsPage';registerAjaxq();}
+if($('#fflistPage').length!==0){window.tableType='fflistPage';registerAjaxq();}
 $('#friendshipForm').submit(function(){var user1=$('#friendshipForm_user1').val();var user2=$('#friendshipForm_user2').val();user1=getCleanScreenname(user1);user2=getCleanScreenname(user2);$(this).attr('action',"/tools/friendship/"+user1+"/"+user2+"/");});});function documentReadyWorks(){showFacebookLikeDialog();$("[data-rel=popover]").popover({});$("[data-rel=tooltip]").tooltip();$('.dropdown-toggle').dropdown();if(!isMobilePhone()){imageResizeEffect();assignLightboxAvatars();}
 resizeResponsiveElements();addDatatablesPlugins();setWordList();if($.pnotify){$.pnotify.defaults.history=false;}
 if(isTurkishMainPage()&&!isTurkishSpeaker()){$("#mainPageAlert").show();}}
