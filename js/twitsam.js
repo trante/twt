@@ -9,7 +9,7 @@ if(screenName){var newAction='/tools/'+tableType+'/'+screenName;$(this).attr('ac
 if($('#tweetsTable').length!==0){window.tableType='tweetsTable';registerAjaxq();}
 if($('#whitelistTable').length!==0){window.tableType='whitelistTable';registerAjaxq();}
 if($('#fflogsPage').length!==0){window.tableType='fflogsPage';registerAjaxq();}
-if($('#fflistPage').length!==0){window.tableType='fflistPage';registerAjaxq();}
+if($('#fflistPage').length!==0){window.tableType='fflistPage';registerAjaxq();} 
 if($('#blocklistTable').length!==0){window.tableType='blocksPage';registerAjaxq();}
 if($('#joinsCountdown').length!==0){var joinsTimeStamp=$('#joinsTimeStamp').text();var joinsTimeStampJS=new Date(joinsTimeStamp*1000);var date_year=window.wordList['date_year'];var date_month=window.wordList['date_month'];var date_week=window.wordList['date_week'];var date_day=window.wordList['date_day'];var date_hour=window.wordList['date_hour'];var date_minute=window.wordList['date_minute'];var date_second=window.wordList['date_second'];$('#joinsCountdown').countdown({since:joinsTimeStampJS,format:'yowdhMS',labels:[date_year,date_month,date_week,date_day,date_hour,date_minute,date_second],labels1:[date_year,date_month,date_week,date_day,date_hour,date_minute,date_second]});}});function documentReadyWorks(){$("[data-rel=popover]").popover({});$("[data-rel=tooltip]").tooltip();$('.dropdown-toggle').dropdown();if(!isMobilePhone()){imageResizeEffect();assignLightboxAvatars();}
 addDatatablesPlugins();if($.pnotify){$.pnotify.defaults.history=false;}}
