@@ -32,8 +32,12 @@ tr.action-shade {
 }*/
 
 .twitp_striket {
-    background: transparent url('http://trante.github.io/twt/img/striket.png')  0 50% repeat-x;
+    background: transparent url('http://trante.github.io/twt/img/striket.png')  0 50% repeat-x  !important;
 }
+
+/*table tbody tr td.twitp_striket {
+    background: transparent url('http://trante.github.io/twt/img/striket.png')  0 50% repeat-x;
+}*/
 
 .twitp_vert_mid {
     vertical-align:middle !important;
