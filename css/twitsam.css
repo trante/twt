@@ -31,14 +31,50 @@ tr.action-shade {
     border-bottom: solid 1px black;
 }*/
 
+/*table tbody tr td.twitp_striket {*/
 .twitp_striket {
     background: transparent url('http://trante.github.io/twt/img/striket.png')  0 50% repeat-x  !important;
 }
 
-/*table tbody tr td.twitp_striket {
-    background: transparent url('http://trante.github.io/twt/img/striket.png')  0 50% repeat-x;
-}*/
-
 .twitp_vert_mid {
     vertical-align:middle !important;
+}
+
+.twitp_sidebar_doorman {
+    top: 60px;
+    bottom:0;
+    left:0;
+    position: fixed;
+    width: 30px;
+    height: 100%;
+    background-color: #f4f4f4;
+    opacity: 0.9;
+    z-index:51;
+}
+.twitp_sidebar {
+    /*top: 0;*/
+    top: 55px;
+    bottom:0;
+    left: 0;
+    position: fixed;
+    /*width: 180px;*/
+    /*height: 100%;*/
+    background-color: #55da3d;
+    opacity: 0.9;
+    /*overflow: hidden;*/
+    overflow: auto;
+    z-index:52;
+    /*margin: 0;*/
+    padding: 0;
+    display: none;
+}
+@media (max-width: 340px) {
+    .twitp_sidebar_doorman { top: 120px; }
+}
+@media (max-width: 340px) {
+    .twitp_sidebar { top: 120px; }
+}
+.twitp_sidebar ul li a {
+    color:#428bca;
+    /*color: #ca632e;*/
 }
