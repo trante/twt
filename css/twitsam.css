@@ -13,7 +13,6 @@
     margin-right: auto;
 }
 
-
 .twitp_right {
     text-align:right;
 }
@@ -47,7 +46,7 @@ tr.action-shade {
     position: fixed;
     width: 30px;
     height: 100%;
-    background-color: #f4f4f4;
+    /*background-color: #f4f4f4;*/
     opacity: 0.9;
     z-index:51;
 }
@@ -59,7 +58,7 @@ tr.action-shade {
     position: fixed;
     /*width: 180px;*/
     /*height: 100%;*/
-    background-color: #55da3d;
+    /*background-color: #55da3d;*/
     opacity: 0.9;
     /*overflow: hidden;*/
     overflow: auto;
@@ -74,7 +73,7 @@ tr.action-shade {
 @media (max-width: 340px) {
     .twitp_sidebar { top: 120px; }
 }
-.twitp_sidebar ul li a {
+/*.twitp_sidebar ul li a {
     color:#428bca;
-    /*color: #ca632e;*/
-}
+    //color: #ca632e;
+}*/
