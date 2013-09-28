@@ -49,6 +49,7 @@ tr.action-shade {
     /*background-color: #f4f4f4;*/
     opacity: 0.9;
     z-index:51;
+    display: none;
 }
 .twitp_sidebar {
     /*top: 0;*/
