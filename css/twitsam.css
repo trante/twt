@@ -78,3 +78,7 @@ tr.action-shade {
     color:#428bca;
     color: #ca632e;
 }*/
+
+#contactDialogOuter .row {
+    margin-bottom:10px;
+}
