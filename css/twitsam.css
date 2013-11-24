@@ -82,3 +82,10 @@ tr.action-shade {
 #contactDialogOuter .row {
     margin-bottom:10px;
 }
+
+/* twitp_split1: splitted for small screens */
+/* twitp_split2: splitted for big screens */
+
+.tour_link {
+    white-space: normal;
+}
