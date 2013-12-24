@@ -1,4 +1,3 @@
-
 .son_tweet_div {
 	display: none;
 }
@@ -88,4 +87,20 @@ tr.action-shade {
 
 .tour_link {
     white-space: normal;
+}
+
+/*.navbar-sam-main .navbar-toggle{
+    z-index:1;
+}*/
+
+.navbar-sam-main .navbar-nav > li >span{
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
+}
+
+.navbar-sam-main .navbar-nav > li >span .navbar-brand{
+    padding-top: 0;
+    padding-bottom: 0;
 }
