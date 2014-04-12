@@ -104,3 +104,9 @@ tr.action-shade {
     padding-top: 0;
     padding-bottom: 0;
 }
+
+/* sidebar icin kullaniliyor, lefti right yapiyor */
+.twitp_ltr1 {
+    left: auto;
+    right:0;
+}
