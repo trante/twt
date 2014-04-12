@@ -1,7 +1,9 @@
+
 .son_tweet_div {
 	display: none;
 }
 
+/* bootstrap muadili: text-center */
 .twitp_center {
     text-align:center;
 }
@@ -32,6 +34,11 @@ tr.action-shade {
 /*table tbody tr td.twitp_striket {*/
 .twitp_striket {
     background: transparent url('http://trante.github.io/twt/img/striket.png')  0 50% repeat-x  !important;
+}
+
+/* disables link underline */
+.twitp_nounderline {
+    text-decoration: none;
 }
 
 .twitp_vert_mid {
@@ -107,6 +114,11 @@ tr.action-shade {
 
 /* sidebar icin kullaniliyor, lefti right yapiyor */
 .twitp_ltr1 {
+    left: auto;
+    right:0;
+}
+
+html[dir="rtl"] .twitp_ltr2 {
     left: auto;
     right:0;
 }
