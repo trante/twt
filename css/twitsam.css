@@ -112,12 +112,13 @@ tr.action-shade {
     padding-bottom: 0;
 }
 
-/* sidebar icin kullaniliyor, lefti right yapiyor */
+/* lefti right yapiyor */
 .twitp_ltr1 {
     left: auto;
     right:0;
 }
 
+/* eger html dir-rtl ise, lefti right yapiyor */
 html[dir="rtl"] .twitp_ltr2 {
     left: auto;
     right:0;
