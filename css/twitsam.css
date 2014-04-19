@@ -41,6 +41,11 @@ tr.action-shade {
     text-decoration: none;
 }
 
+/* disables link underline-important */
+.twitp_nounderline_imp {
+    text-decoration: none !important;
+}
+
 .twitp_vert_mid {
     vertical-align:middle !important;
 }
