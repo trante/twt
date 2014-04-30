@@ -128,3 +128,7 @@ html[dir="rtl"] .twitp_ltr2 {
     left: auto;
     right:0;
 }
+
+@media (max-width: 768px) {
+    .twitp_xs_no_top_margin { margin-top: 0; }
+}
